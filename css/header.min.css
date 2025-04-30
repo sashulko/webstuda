@@ -1,0 +1,8 @@
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+}

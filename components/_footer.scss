@@ -1,0 +1,158 @@
+.footer { 
+  justify-content: space-between;
+  background-color: $bg-color;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-right: 156px;
+}
+
+.address-left {
+  display: flex;
+}
+
+.join-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.address-footer-list {
+  gap: 30px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.address-item {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $white-color;
+  margin-bottom: 9px;
+
+  margin-bottom: 9px;
+}
+.address-item:nth-child(2) {
+  color:  $grey-color;
+}
+.address-item:nth-child(3) {
+  color:  $grey-color;
+}
+
+.join-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.join {
+  color: $white-color;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+.join-item {
+  margin-left: 10px;
+}
+
+.join-icon {
+  width: 20px;
+  height: 20px;
+}
+.join-link {
+  display: flex;
+  padding-top: 12px;
+  transition: background-color 0.3s ease;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 100%;
+  fill: #fff;
+  background: #ffffff1a;
+}
+.join-link:hover {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 100%;
+  fill: #fff;
+  background-color: #2196f3;
+}
+.telegram {
+  margin-left: 70px;
+
+}
+
+.substract {
+  margin-top: 72px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.form-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.form-inputs {
+  margin-right: 12px;
+}
+
+.form-inp {
+  width: 358px;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+
+  outline: none;
+}
+
+
+.btn-telegram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
+.svg-telegram {
+  fill: white;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.btn-telegram:hover {
+  background-color: #188ce8;
+}
