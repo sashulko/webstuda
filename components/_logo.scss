@@ -1,6 +1,6 @@
 .logo {
   font-family: "Raleway", sans-serif;
-  color: $axent-color;
+  color: var(--axent-color);
   font-size: 26px;
   line-height: 1.7;
   font-weight: 700;
@@ -8,14 +8,14 @@
   margin-right: 93px;
 }
 .blue {
-  color: $axent-color;
+  color: var(--axent-color);
   font-family: "Raleway", sans-serif;
 }
 .black {
-  color: $main-color;
+  color: var(--main-color);
   font-family: "Raleway", sans-serif;
 }
 .white {
-  color: $white-color;
+  color: var(--white-color);
   font-family: "Raleway", sans-serif;
 }

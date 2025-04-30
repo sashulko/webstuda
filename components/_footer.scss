@@ -1,6 +1,6 @@
 .footer { 
   justify-content: space-between;
-  background-color: $bg-color;
+  background-color: var(--bg-color);
 }
 .footer-content {
   display: flex;
@@ -41,16 +41,16 @@
   display: flex;
   font-size: 14px;
   line-height: 1.71;
-  color: $white-color;
+  color: var(--white-color);
   margin-bottom: 9px;
 
   margin-bottom: 9px;
 }
 .address-item:nth-child(2) {
-  color:  $grey-color;
+  color: var(--grey);
 }
 .address-item:nth-child(3) {
-  color:  $grey-color;
+  color: var(--grey);
 }
 
 .join-list {
@@ -60,7 +60,7 @@
   display: flex;
 }
 .join {
-  color: $white-color;
+  color: var(--white-color);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;

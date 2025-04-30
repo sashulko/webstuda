@@ -12,14 +12,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: $border-color;
+  fill: var(--border-color);
   padding: 15px;
   border-radius: 50%;
   margin-bottom: 30px;
 }
 .item-link:hover {
   fill: #fff;
-  background-color: $axent-color;
+  background-color: var(--axent-color);
 }
 .team-social-list {
   display: flex;

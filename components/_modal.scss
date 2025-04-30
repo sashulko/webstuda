@@ -43,7 +43,7 @@ border: 1px solid gray;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.12;
-  color: $grey;
+  color: var(--grey);
 }
 
 .form-inp,
@@ -58,7 +58,7 @@ border: 1px solid gray;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
-  color: $grey;
+  color: var(--grey);
   width: 448px;
   height: 120px;
   resize: none;
@@ -113,7 +113,7 @@ border: 1px solid gray;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  color: $grey-color;
+  color: var(--grey);
 }
 
 .submit-btn:hover {

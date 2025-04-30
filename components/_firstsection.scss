@@ -18,13 +18,13 @@
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
-  color: $white-color;
+  color: var(--white-color);
   text-align: center;
   width: 696px;
 }
 .btn {
-  color: $white-color;
-  background-color: $axent-color;
+  color: var(--white-color);
+  background-color: var(--axent-color);
   padding: 10px 32px;
   margin: 0 auto;
   display: block;
@@ -50,7 +50,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: $color;
+  background-color: var(--color);
   background-image: url(../image/antenna.png);
   background-repeat: no-repeat;
   background-position: center, center;
@@ -78,5 +78,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.3%;
-  color:  $grey-color;
+  color: var(--grey);
 }
